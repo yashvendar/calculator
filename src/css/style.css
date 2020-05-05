@@ -1,0 +1,29 @@
+.keyboard{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+}
+.calcDisplay{
+    max-width: 400px;
+    min-height: 400px;
+}
+.inptTxt{
+    width:98%;
+    height: 40px;
+    border: solid 2px lightslategray;
+    font-size: 30px;
+    border-radius: 5px;
+    text-align: right;
+}
+.button{
+    height:40px;
+    border: lightsteelblue;
+    font-size: 20px;
+    font-weight:500;
+    
+}
+.button:hover{
+    background-color: steelblue;
+    color: white;
+}
